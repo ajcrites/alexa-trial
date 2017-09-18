@@ -1,0 +1,8 @@
+{
+  "name": "AdderSkill",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::658884894793:role/lambda_basic_execution",
+  "environment": {}
+}

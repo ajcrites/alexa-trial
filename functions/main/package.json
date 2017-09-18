@@ -1,0 +1,9 @@
+{
+  "name": "trial",
+  "version": "0.0.1",
+  "dependencies": {
+    "alexa-sdk": "^1.0.14",
+    "aws": "0.0.3-2",
+    "aws-sdk": "^2.116.0"
+  }
+}
