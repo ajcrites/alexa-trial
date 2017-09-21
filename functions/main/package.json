@@ -2,8 +2,11 @@
   "name": "trial",
   "version": "0.0.1",
   "dependencies": {
+    "@types/alexa-sdk": "^1.0.10",
+    "@types/node": "^8.0.29",
     "alexa-sdk": "^1.0.14",
     "aws": "0.0.3-2",
-    "aws-sdk": "^2.116.0"
+    "aws-sdk": "^2.116.0",
+    "lodash": "^4.17.4"
   }
 }

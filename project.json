@@ -4,5 +4,9 @@
   "memory": 128,
   "timeout": 5,
   "role": "arn:aws:iam::658884894793:role/lambda_basic_execution",
-  "environment": {}
+  "environment": {},
+  "hooks": {
+    "build": "npm install --production && ../../node_modules/.bin/tsc --project tsconfig.json",
+    "clean": "rm -rf lib node_modules"
+  }
 }
